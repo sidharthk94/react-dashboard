@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MenuBar from "./componence/menuBar/MenuBar";
+import HeaderPortion from "./componence/header/HeaderPortion";
+import LineChart from "./componence/charts/lineChart/LineChart";
+import PieChart from "./componence/charts/pieChar/PieChart";
+import Table from "./componence/charts/table/Table";
+import SocCard from "./componence/charts/socCard/SocCard";
+import Bottom from "./componence/bottom/Bottom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="menuBar">
+        <MenuBar />
+      </div>
+      <div className="chartPortion">
+        <div>
+          <HeaderPortion />
+        </div>
+        <div className="lineandpie">
+          <LineChart/>
+          <PieChart/>
+        </div>
+        <div className="tableandsoc">
+          <Table/>
+          <SocCard/>
+        </div>
+        <div>
+          <Bottom/>
+        </div>
+      </div>
     </div>
   );
 }

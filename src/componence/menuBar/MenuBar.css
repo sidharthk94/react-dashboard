@@ -1,0 +1,83 @@
+.menubarMain {
+  height: 100vh;
+}
+
+.menuitemsMain {
+  height: 95vh;
+  background-image: url("../../../public/Rectangle\ 1.png");
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+.briefCaseImg {
+  height: 50px;
+  width: 50px;
+}
+.statBoardImg {
+  height: 20px;
+  width: 50px;
+}
+.topIcons {
+  display: flex;
+  flex-direction: column;
+}
+.dashboardContainer,
+.supportContainer,
+.pluginsContainer,
+.helpContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 20px;
+}
+.menuIcons {
+  height: 15px;
+  width: 15px;
+}
+.menuItens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topIconsWraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.logoutwrap {
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.logout {
+  font-size: 10px;
+}
+.dasBor {
+  width: 125%;
+  background-color: white;
+  height: 30px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.othBor {
+  width: 125%;
+  background-color: rgba(0, 0, 13, 0.441);
+  height: 30px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.vvv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

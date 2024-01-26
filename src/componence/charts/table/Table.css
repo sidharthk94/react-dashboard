@@ -1,0 +1,31 @@
+.table {
+  margin-top: 20px;
+  width: 50vw;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.id {
+  width: 10%;
+  font-size: 12px;
+}
+.name,
+.quantity,
+.price {
+  width: 30%;
+  font-size: 12px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.tableMain {
+  width: 50vw;
+
+}

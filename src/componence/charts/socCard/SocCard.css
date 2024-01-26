@@ -1,0 +1,26 @@
+.socCardMain{
+    height: 220px;
+    width:150px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.pic{
+    width: 150px;
+    height: 65%;
+}
+.fb{
+    height:15px ;
+    width: 15px;
+}
+.socIcons{
+    display: flex;
+    gap: 3px;
+}
